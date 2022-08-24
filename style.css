@@ -1,6 +1,6 @@
 :root {
   --primary-color: #0d0a3d;
-  --secondary-color: #cdf0ea;
+  --secondary-color: grey;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -8,7 +8,7 @@
 
 body {
   margin-top: 100px;
-  background-color: #fbf7f0;
+  background-color: white;
   font-family: var(--default-font-family);
 }
 
@@ -21,7 +21,7 @@ h3 {
 }
 
 h1 {
-  font-size: 86px;
+  font-size: 70px;
 }
 
 h2 {
@@ -90,6 +90,10 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
+.featured-content-description {
+  margin-left: 30px;
+  max-height: 35px;
+}
 
 .email-link:hover {
   text-decoration: underline;
@@ -97,10 +101,20 @@ p {
 .navbar-color {
   background-color: #0d0a3d;
 }
-.hero {
-  background: #fbf7f0;
+.project-desciption {
+  padding: 120px 60px;
+}
+footer {
   text-align: center;
-  padding: 115px 20px;
+  display: block;
+  color: #0d0a3d;
+}
+
+.hero {
+  background: url(/images/back.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 125px 20px;
 }
 .nav-link {
   color: white;
@@ -111,6 +125,22 @@ p {
 .navbar {
   background-color: #0d0a3d;
 }
+.photo {
+  width: 380px;
+}
+.about-section h2 {
+  font-size: 50px;
+  line-height: 50px;
+  font-family: var(--default-font-family);
+  padding: 50px 20px;
+}
+.about-section-content {
+  margin: 35px;
+}
+.logo {
+  max-height: 50px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -120,13 +150,16 @@ p {
   h2 {
     font-size: 44px;
   }
-
   .hero {
     padding: 80px 20px;
   }
-
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  .featured-content-description {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 0;
   }
 }
