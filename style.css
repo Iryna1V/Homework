@@ -126,7 +126,10 @@ footer {
   background-color: #0d0a3d;
 }
 .photo {
-  width: 300px;
+  width: 80%;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
 }
 .about-section h2 {
   font-size: 50px;
