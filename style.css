@@ -162,4 +162,24 @@ footer {
     padding-bottom: 10px;
     margin-left: 0;
   }
+  #col-skills-icons {
+    margin: 0px !important;
+  }
+
+  .skills {
+    margin-top: 90px;
+    font-size: 38px;
+  }
+  .skill-name {
+    font-size: 16px;
+  }
+  .skill-icon {
+    max-width: 40px;
+    display: block;
+    margin: 0 auto;
+  }
+  .icons {
+    font-size: 11px;
+    margin: 0 auto;
+  }
 }
